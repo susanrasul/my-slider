@@ -1,0 +1,86 @@
+.container-main {
+  width: 1170px;
+  padding: 0;
+}
+
+.container-middle {
+  width: 1050px;
+  padding: 0;
+}
+
+.container-small {
+  width: 980px;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-small {
+  margin: auto;
+}
+
+.container-small > div {
+  display: inline-block;
+  padding-right: 168px;
+  margin-top: 80px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.container-small > div:hover {
+  transition: 0.1;
+  transform: scale(1.1);
+}
+
+.container-small > div > h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #eb6383;
+  margin-top: 17px;
+}
+
+.container-small > div > p {
+  margin-top: 10px;
+}
+
+.container-small > #last {
+  padding-right: 0;
+}
+
+.container-middle > #my-carousel {
+  background: rgba(235, 99, 131, 0.15);
+  border-radius: 10px;
+  margin-top: 120px;
+}
+
+.container-middle > #my-carousel > div {
+  text-align: center;
+}
+
+.container-middle > #my-carousel > div .slider-image {
+  padding-top: 50px;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.container-middle > #my-carousel > div p {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 150px 0 150px;
+}
+
+.container-middle > #my-carousel > div span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+/*# sourceMappingURL=style.css.map */
